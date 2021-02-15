@@ -1,0 +1,93 @@
+/* 
+Aplikasi Al - Qur'an Online
+Development By : Mirza Saputra
+css:
+    - Bootstrap
+    - Font - Awesome 5 Free
+
+Javascript :
+    - Jquery
+    - Bootstrap
+    - Popper.js
+
+Custom css :
+    - Navbar
+    - Bg Ilustration
+    - Home
+    - About
+    - Footer
+*/
+
+/* Background Home */
+#home {
+    padding-top: 65px;
+}
+
+.bg-ilustration {
+    background: url(../img/bg-ilustration.png);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    margin-top: -80px;
+    z-index: -1;
+    position: absolute;
+    right: 0;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #f5f5f5!important;
+}
+
+.btn-success-2 {
+    background: #47E386;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .25);
+    color: #fff;
+}
+
+.btn-success-2:hover, .btn-success-2:focus {
+    background: #47B173;
+    color: #fff;
+}
+
+#home .title {
+    padding: 125px 0px 267px;
+}
+
+
+/* ABOUT */
+#about {
+    background: #F1F9F6;
+    padding: 35px;
+}
+
+.text-success-2 {
+    color: #47E386;
+}
+
+/* Footer */
+#footer {
+    background: #47E386;
+    color: #ececec;
+    padding: 35px 0;
+}
+
+.btn-success-alt {
+    background: #3AC672;
+    padding: 13px;
+    border: 1px solid #f5f5f5;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .25);
+}
+
+.btn-success-alt:hover, .btn-success-alt:focus {
+    outline: none;
+    background: #2d9c59;
+}
+
+.form-control.follow {
+    box-shadow: 0 0 8px rgba(0, 0, 0, .25);
+    
+}
+
+.form-control.follow:focus {
+    outline: #3AC672;
+}
