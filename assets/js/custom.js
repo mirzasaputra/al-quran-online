@@ -14,6 +14,6 @@ $('.back-to-top').click(function () {
     $('html, body').animate({ scrollTop: 0 }, 800);
 })
 
-// $(window).on('load', function () {
-//     $('.pre-loader').addClass('hide');
-// })
+$(window).on('load', function () {
+    $('.pre-loader').addClass('hide');
+})
