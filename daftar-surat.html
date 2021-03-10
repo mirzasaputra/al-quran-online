@@ -127,7 +127,7 @@
                 var val = "";
                 $.each(data, function(index, value){
                     val += `
-                        <div class="col-md-4 col-sm-6 col-xs-10 col-12 mx-auto">
+                        <div class="col-md-4 col-sm-8 col-xs-10 col-12 mx-auto">
                             <a href="comming-soon" class="text-dark">
                                 <div class="card mb-3 shadow-sm">
                                     <div class="card-body">
@@ -149,7 +149,7 @@
                                                 <td>`+ value.nomor +`</td>
                                             </tr>
                                         </table>
-                                        <audio src="`+ value.audio +`" controls></audio>
+                                        <audio src="`+ value.audio +`" width="100%" controls></audio>
                                     </div>
                                 </div>
                             </a>
